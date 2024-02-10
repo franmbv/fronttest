@@ -1,0 +1,56 @@
+.threecard {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: green;
+    justify-content: center;
+    gap: 15%;
+    max-height: 480px;
+}
+
+.threecard-content {
+    width: 35%;
+}
+
+.threecard-text {
+    font-size: 48px;
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.threecard-btn {
+    margin-top: 16px;
+    border-radius: 5px;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.white {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.white:hover {
+    color: green
+}
+
+.transparent {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.transparent:hover {
+    background-color: white;
+    color: green
+}
+
+.threecard-image {
+    object-fit: fill;
+    width: 40%;
+    background-image: url("../Images/dimension.png");
+}

@@ -1,0 +1,47 @@
+.sixcard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 600px;
+    background-color: rgb(242, 242, 246);
+}
+
+.sixcard-title {
+    font-size: 56px;
+}
+
+.sixcard-info {
+    width: 85%;
+}
+
+.sixcard-image {
+    position: absolute;
+    width: 100%;
+    object-fit: fill;
+    z-index: 1;
+    max-height: 600px;
+}
+
+.sixcard-content {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 10%;
+    z-index: 1;
+}
+
+.btnstandar-six {
+    padding: 16px;
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+    margin-top: 10%
+}
+
+.btnstandar-six:hover{
+    background-color: #3FFA53
+}

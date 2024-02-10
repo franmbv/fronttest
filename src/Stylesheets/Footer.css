@@ -1,0 +1,18 @@
+.finalFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footerText {
+  font-weight: bold;
+  text-align: center;
+}
+
+.footerImage {
+  object-fit: fill;
+  height: 120px;
+  width: 200px;
+}

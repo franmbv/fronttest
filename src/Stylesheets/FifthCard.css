@@ -1,0 +1,79 @@
+.fivecard {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.fivecard-background {
+  position: absolute;
+  width: 100%;
+  object-fit: fill;
+  z-index: -1;
+  max-height: 800px;
+}
+
+.join-text {
+  font-weight: bold;
+  color: white;
+  margin: 2%;
+}
+
+.btnstandar-five {
+  padding: 16px;
+  border: none;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-left: 46px;
+  padding-right: 46px;
+  font-weight: bold;
+  max-width: fit-content;
+  margin: 2%;
+}
+
+.btnstandar-five:hover{
+  background-color: #3ffa53;
+}
+
+.fivecard-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5%;
+}
+
+.form{
+  width: 90%
+}
+
+.form-input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin: 2%;
+  height: 45px;
+  padding-left: 16px;
+}
+
+.form-inputbox {
+  display: flex;
+  width: 107%
+}
+
+.form>textarea {
+  height: 90px;
+  padding-top: 16px;
+}
+
+.form-footer {
+  padding-bottom: 17.5%;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+  text-align: center;
+}

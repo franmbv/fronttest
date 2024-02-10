@@ -1,0 +1,37 @@
+.fourcard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourcard-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.fourcard-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15%
+}
+
+.fourcard-btn {
+    padding: 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: green;
+    font-size: 24px;
+    padding-left: 46px;
+    padding-right: 46px;
+    font-weight: bold;
+}
+
+.fourcard-btn:hover{
+    background-color: #3FFA53;
+}

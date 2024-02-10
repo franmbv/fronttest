@@ -1,0 +1,52 @@
+.sevencard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-color: green;
+  background-image: url("../Images/dimension.png");
+}
+
+.sevencard-title {
+  font-size: 56px;
+  color: white;
+}
+
+.sevencard-image {
+  object-fit: fill;
+  width: 300px;
+  height: 400px;
+}
+
+.images-container{
+  display: flex;
+  gap: 5%;
+}
+
+.icons-container {
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  justify-content: center;
+  gap: 2%;
+  color: white;
+}
+
+.btnstandar-seven {
+  margin-top: 5%;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-left: 46px;
+  padding-right: 46px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
+
+.btnstandar-seven:hover{
+  color: white;
+  background-color: green;
+}

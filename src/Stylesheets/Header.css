@@ -1,0 +1,45 @@
+header {
+    height: 40px;
+    background-color: #3FFA53;
+    color: white;
+}
+
+header>div{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+header>div>span{
+    margin-left:16px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+header>div>.isLive{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: red;
+    text-transform: uppercase;
+}
+
+.isJoin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isJoin:hover{
+    height: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: green;
+    box-shadow: 20px;
+    cursor: pointer;
+}
